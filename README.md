@@ -13,7 +13,7 @@ This repository contains code for the paper
 Install all Python packages: `pip install -r requirements.txt`. 
 
 ## Data
-The faithfulness annotations we collect for CNNDM and XSum are going to be added soon. 
+The faithfulness annotations we collected for CNNDM and XSum are going to be added soon. 
 
 ## Code
 Trained models for question generation and question answering systems are under [this drive](https://drive.google.com/drive/folders/1GrnfJxaK35O2IEevv4VbiwYSwxBQVI2X?usp=sharing).
