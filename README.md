@@ -18,8 +18,8 @@ The faithfulness annotations we collect for CNNDM and XSum are going to be added
 ## Code
 Trained models for question generation and question answering systems are under [this drive](https://drive.google.com/drive/folders/1GrnfJxaK35O2IEevv4VbiwYSwxBQVI2X?usp=sharing).
 
-1. Download squad1.0 from Google Drive and place it under qa_models directory. 
-2. Download checkpoints folder and place it under bart_qg directory. 
+1. Download **squad1.0** from Google Drive and place it under **qa_models** directory. 
+2. Download **checkpoints** folder and place it under **bart_qg** directory. 
 
 **feqa.py**: includes the code to run feqa pipeline (question generation, answering and metric calculation). 
 
