@@ -23,7 +23,7 @@ Trained models for question generation and question answering systems are under 
 
 **feqa.py**: includes the code to run feqa pipeline (question generation, answering and metric calculation). 
 
-See **run_feqa.ipynb** notebook for an example on how to run the pipeline for the given documents and output summaries. 
+See **run_feqa.ipynb** notebook for a pilot example on how to run the pipeline for the given documents and output summaries. 
 
 ## Contact
 You can send an email to ed459[at]cornell[dot]edu, if you have any questions or comments. 
