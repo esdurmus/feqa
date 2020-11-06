@@ -196,14 +196,16 @@ class FEQA(object):
                 doc_questions[doc_id]={"preds":[prediction],"gold":[gold_answers_dict[qa_id]]}
 
         doc_f1 = defaultdict(float)
-
-        for doc_id in doc_questions:
+        
+        for idx in range(0,len(documents)):
+            idx=str(idx)
             try:
-                f1 = self._compute_f1_list(doc_questions[doc_id]["gold"],doc_questions[doc_id]["preds"])
-                doc_f1[doc_id] = f1
+                f1 = self._compute_f1_list(doc_questions[idx]["gold"],doc_questions[idx]["preds"])
+                doc_f1[idx] = f1
             except:
-                doc_f1[doc_id] = 0
-      
+                doc_f1[idx] = 0
+                
+            
         if aggregate:
             return np.mean(list(doc_f1.values()))
 
