@@ -205,7 +205,10 @@ class FEQA(object):
             except:
                 doc_f1[idx] = 0
                 
-            
+        for id_, summary in enumerate(summaries):
+            if str(id_) not in doc_f1:
+                doc_f1[str(id_)] = 0
+                
         if aggregate:
             return np.mean(list(doc_f1.values()))
 
